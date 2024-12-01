@@ -9,7 +9,7 @@ Proxy Reverso: http://localhost:8081
 
 Simular Falhas no Backend
 
-docker stop <repescagemm>
+docker stop <nome-do-container-backend>
 
 Induzir Erros:
 Altere o código do backend para lançar erros, recompile e teste o impacto:
